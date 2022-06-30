@@ -1,0 +1,53 @@
+.App {
+    width: 100vw;
+    height: 100vh;
+    background: #1c92d2;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #f2fcfe, #1c92d2);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #f2fcfe, #1c92d2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    color: white;
+  }
+  /* .newpage {
+    display: flex;
+    justify-content: center;
+  } */
+  .addnew {
+    float : right;
+    text-decoration: none;
+  }
+
+  .links{
+    display: flex;
+    flex-direction: row;
+    
+  }
+  span{
+    margin-left: 10em;
+  }
+  .addBox{
+    display: inline-block;
+    align-items: center;
+    margin-left: 4.5em;
+  }
+  .input{
+  
+      font-size: 30px;
+      margin-left: 15px;
+  }
+  .button{
+    margin-top: 30px;
+    width: 50%;
+    margin-left: 450px;
+  }
+  .task{
+    height: 50px;
+    width: 100px;
+    border-radius: 20px;
+    background-color: rgb(42, 30, 90);
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    padding: 5px;
+    margin-left: 10px;
+}
