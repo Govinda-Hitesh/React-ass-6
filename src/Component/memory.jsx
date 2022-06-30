@@ -5,33 +5,33 @@ export const data = createContext();
 const Memory = (props) => {
   const [students, setStudents] = useState([
     {
-      Name: "Niraj",
+      Name: "Hitesh",
       Age: "23",
-      Course: "FullStack",
-      Batch: "Febuary",
+      Course: "DSA",
+      Batch: "Feb",
       id: "1",
     },
 
     {
-      Name: "Shubham",
-      Age: "27",
+      Name: "Akash",
+      Age: "24",
       Course: "Front End",
-      Batch: "January",
+      Batch: "Jan",
       id: "2",
     },
     {
-      Name: "Dhiraj",
-      Age: "22",
+      Name: "Ishu",
+      Age: "27",
       Course: "back End",
-      Batch: "July",
+      Batch: "Jul",
       id: "3",
     },
 
     {
-      Name: "Deepak",
-      Age: "20",
+      Name: "Das",
+      Age: "26",
       Course: "Cloud Computing",
-      Batch: "June",
+      Batch: "Jun",
       id: "4",
     },
     {
