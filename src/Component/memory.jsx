@@ -35,8 +35,8 @@ const Memory = (props) => {
       id: "4",
     },
     {
-      Name: "Tonso",
-      Age: "28",
+      Name: "kartik",
+      Age: "23",
       Course: "data Analyst",
       Batch: "december",
       id: "5",
